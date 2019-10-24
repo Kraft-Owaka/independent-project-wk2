@@ -1,4 +1,18 @@
-table {
-    border-collapse: collapse;
-    border-spacing: 0px;
+form {
+    widows: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #663366;
+    font-size: 20px;
+    font-family:Tahoma;
+    color: white;
+}
+input[type =text]{ width: 70%;
+    padding: 6px;
+    font-size: 18px;
+}
+input[type submit] {
+    padding: 5px;
+    font-size: 25px;
+    width: 100px;
 }
