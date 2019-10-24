@@ -11,7 +11,7 @@ input[type =text]{ width: 70%;
     padding: 6px;
     font-size: 18px;
 }
-input[type submit] {
+input[type =submit]{
     padding: 5px;
     font-size: 25px;
     width: 100px;
