@@ -21,3 +21,24 @@ var DOB = document.getElementById('dateOB'). valueAsDate//variable "DOB" stores 
 var dayOfBirth = DOB.getDay();//variable "dateOfBirth" returns an integer value for the day of the week 
 //0-6:Sunday-Saturday
 var radioselect =document.querySelector('input[name="gender"]:checked').value;//var "radioselect gets the choice selected from the radio button"
+        if(radionoselect == "male" && dayBith == 0){
+            documents.getElementById("resultSelect").innerHTML = "Kwasi";
+        }
+        else if(radionoselect == "male" && dayBith == 1){
+            documents.getElementById("resultSelect").innerHTML = "Kwadwo";
+        }
+        else if(radionoselect == "male" && dayBith == 2){
+            documents.getElementById("resultSelect").innerHTML = "Kwabena";
+        }
+        else if(radionoselect == "male" && dayBith == 3){
+            documents.getElementById("resultSelect").innerHTML = "Kwaku";
+        }
+        else if(radionoselect == "male" && dayBith == 4){
+            documents.getElementById("resultSelect").innerHTML = "Yaw";
+        }
+        else if(radionoselect == "male" && dayBith == 5){
+            documents.getElementById("resultSelect").innerHTML = "Kofi";
+        }
+        else if(radionoselect == "male" && dayBith == 6){
+            documents.getElementById("resultSelect").innerHTML = "";
+        }
