@@ -19,36 +19,24 @@
                     their Akan name depending on their gender.</p>
                 <div class="dataSec">
                     <form class="info" name="information">
-                    <fieldset class="set">
-                        <legend>Gender</legend>
-                        <label>
-                    Name :<br>
-                   <!--<input type="text" name="firstname" id="text"><br>--> 
-                    <p class="nameResult">Name</p>
-                    Date of Birth:<br>
-                    <input type="date">
-                    <br><br>
-                    <label>
-                        <input type="radio" name="gender" value="male">Male
-                    </label>
-                    <br>
-                    <label>
-                            <input type="radio" name="gender" value="female">Female
-                    </label>
-                    <br>
-                    <button type="button" type="button" onclick="myFunction()   ">click
-                    </button>
-                    <input type="reset" value="reset">
-
-                </form>
+                    <!--fieldset,is a tag used to group related elements in a form.legend - defines a caption fot the fieldset lement-->
+                        <fieldset class="set">
+                            <legend>Gender</legend>
+                            <label>
+                                <input type="radio" value="male" name="gender">male<br>    
+                            </label>
+                            <label>
+                                <input type="radio" value="male" name="gender">female<br>    
+                            </label>
+                        </fieldset>
+                    </form>
+                    <!--btn code used as a submit-->
+                    <button class="btn id=btnClick">click</button>
+                    <p class="result" id="resultSection">Print-Akan-Name</p>
+                </div>
+                    
                 <script>
-                    // Here the value is stored in new variable x    
-                    function myFunction() {
-                        var x =
-                            document.getElementById("myText").value;
-                        document.getElementById(
-                            "demo").innerHTML = x;
-                    }    
+   
                     d = (((CC/4 -2*CC-1) + ((5*YY/4) ) + ((26* (MM+1)/10)) + DD ) % 7    
                 </script>
  
