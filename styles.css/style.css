@@ -4,48 +4,17 @@
     list-style: none;
     text-decoration: none;
 }
-form {
-    widows: 500px;
-    margin: 20px auto;
-    width: 50%;
-    padding: 20px 20px;
-    background: rgb(51, 92, 102);
-    font-size: 16px;
-    font-weight: 200;
-    font-family:sans-serif;
-    color: white;
-    display: inline-block;
-}
-input[type =text]{ 
-    width: 70%;
-    padding: 5px;
-    font-size: 18px;
-}
-input[type =submit]{
-    padding: 5px;
-    font-size: 25px;
-    width: 100px;
-}
-select{
-    font-size: 21px;
-    padding: 5px;
-    background: #e0d3e8;
-}p {
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-
-}
-h1 {
-    color: rgb(42, 75, 165);
-}
-.nameResult{
-    background-color: azure;
-    color: black;
-    padding: 10px;
+.dataSec{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(87, 219, 219);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: o;
+    right: 0;
+    left: 0;
     box-sizing: border-box;
+    padding: 20px;
 }
-/*new css*/
+.btn
