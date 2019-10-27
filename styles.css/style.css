@@ -42,3 +42,10 @@ select{
 h1 {
     color: rgb(42, 75, 165);
 }
+.nameResult{
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*new css*/
