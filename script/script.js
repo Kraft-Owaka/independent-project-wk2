@@ -17,3 +17,7 @@ var myday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"];
 var a = document.getElementById("btnClick");
 // creates a button "a" from the "btnClick" in html
 a.addEventListener("click", function(){// add an onClick event litener to btClick so that when clicked, it runs the function})
+var DOB = document.getElementById('dateOB'). valueAsDate//variable "DOB" stores the value from the daye picker
+var dayOfBirth = DOB.getDay();//variable "dateOfBirth" returns an integer value for the day of the week 
+//0-6:Sunday-Saturday
+var radioselect =document.querySelector('input[name="gender"]:checked').value;//var "radioselect gets the choice selected from the radio button"
