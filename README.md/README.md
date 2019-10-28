@@ -4,8 +4,10 @@ Second week project, The web application of this week will helps individuals fro
 ## Author 
 Kraft Owaka 
 e-mail: owakakraft@gmail.com 
-### 1. open the website and log in the required information ans submit.
-###
+### Setup
+    1. open the website  
+    2.log in the required information
+    3. submit.
 ## Contact Information 
  e-mail: owakakraft@gmail.com
 ### Thechnologies used 

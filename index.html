@@ -1,92 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Akan Name</title>
-    <link href="./styles.css/style.css" rel="stylesheet" text="text/css">
+<title>
+    Akan Names.
+</title>
+<style>
+.dateSec{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(87, 219, 219);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}    
+.btn{
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(92, 143, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    cursor: pointer;
+    border: 0;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.info{
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+.set{
+    margin-top: 30px;
+}
+.result{
+    background-color: aliceblue;
+    line-height: 100px;
+    width: 150px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    border-radius: 10px;
+}
+</style>
 </head>
-
-<body>
-        <p>This application checks whether the day and month entered is valid. The applicatin will then output
-        their Akan name depending on their gender.</p>
-        <h1>Akan Name.</h1>
-        <div class="dataSec">
+    <body>
+            <p>This application checks whether the day and month entered is valid. The applicatin will then output
+                    their Akan name depending on their gender.</p>
+                    <h1>Akan Name.</h1>
+        <div class="dateSec">
             <form class="info" name="information">
-        <!--fieldset,is a tag used to group related elements in a form.legend - defines a caption fot the fieldset lement-->
-        Birthday:
-        <input type="date" name="bday" id="dateOB">    
-            <fieldset class="set">
-                <legend>Gender:</legend>
+                Birthday:
+                <input type="date" name="bday" id="dateOB">
+                <fieldset class="set">
+                    <legend>Gender:</legend>
                     <label>
-                        <input type="radio" value="male" name="gender">male<br>    
+                            <input type="radio" value="male" name="gender">male<br>
                     </label>
-                        <label>
-                            <input type="radio" value="female" name="gender">female<br>    
-                        </label>
-            </fieldset>
-    </form>
-                    <!--btn code used as a submit-->
-                <button class="btn" id="btnClick">Click</button>
-                <p class="result" id="resultSection">Akan-Name</p>
-            </div>
-            
-                   
-                    
-        <script>
-                    
+                    <label>
+                            <input type="radio" value="female" name="gender">female
+                    </label>
+                </fieldset>
+            </form>
+            <button class="btn" id="btnClick">Click</button>
+            <p class="result" id="resultSection">Name Here</p>
+
+        </div>
+<script>
+
+
+
         var a = document.getElementById("btnClick"); //create a button "a" from the "btnClick" in html
         a.addEventListener("click", function(){//add an onclick event listener to btnClick so that when clicked, it runs the function
         var DOB = document.getElementById('dateOB').valueAsDate//variable "DOB" stores the value from the date picker
         var dayOfBirth = DOB.getDay();//variable "dayOfBirth" returns an integer value for the day of the week
         //0-6:Sunday-Saturday
-        var radioselect = document.querySelector('input[name="gender"]:checked').value;//var "radioselect gets the choice selected from the radio button"
-                if(radionoselect == "male" && dayOfBith == 0){
-                    documents.getElementById("resultSelect").innerHTML = "Kwasi";
+        var radioselect = document.querySelector('input[name="gender"]:checked').value;//var "radioselect" gets the choice selected from the radio buttons
+                if(radioselect == "male" && dayOfBirth == 0){
+                    document.getElementById("resultSection").innerHTML = "Kwasi";
                 }
-                else if(radionoselect == "male" && dayOfBith == 1){
-                    documents.getElementById("resultSelect").innerHTML = "Kwadwo";
+                else if(radioselect == "male" && dayOfBirth == 1){
+                    document.getElementById("resultSection").innerHTML = "Kwadwo";
                 }
-                else if(radionoselect == "male" && dayOfBith == 2){
-                    documents.getElementById("resultSelect").innerHTML = "Kwabena";
+                else if(radioselect == "male" && dayOfBirth == 2){
+                    document.getElementById("resultSection").innerHTML = "Kwabena";
                 }
-                else if(radionoselect == "male" && dayOfBith == 3){
-                    documents.getElementById("resultSelect").innerHTML = "Kwaku";
+                else if(radioselect == "male" && dayOfBirth == 3){
+                    document.getElementById("resultSection").innerHTML = "Kwaku";
                 }
-                else if(radionoselect == "male" && dayOfBith == 4){
-                    documents.getElementById("resultSelect").innerHTML = "Yaw";
+                else if(radioselect == "male" && dayOfBirth == 4){
+                    document.getElementById("resultSection").innerHTML = "Yaw";
                 }
-                else if(radionoselect == "male" && dayOfBith == 5){
-                    documents.getElementById("resultSelect").innerHTML = "Kofi";
+                else if(radioselect == "male" && dayOfBirth == 5){
+                    document.getElementById("resultSection").innerHTML = "Kofi";
                 }
-                else if(radionoselect == "male" && dayOfBith == 6){
-                    documents.getElementById("resultSelect").innerHTML = "Kwame";
-                    }
-                else if(radionoselect == "female" && dayOfBith == 0){
-                    documents.getElementById("resultSelect").innerHTML = "Akosua";
+                else if(radioselect == "male" && dayOfBirth ==6){
+                    document.getElementById("resultSection").innerHTML = "Kwame";
                 }
-                else if(radionoselect == "female" && dayOfBith == 1){
-                    documents.getElementById("resultSelect").innerHTML = "Adwoa";
+                else if(radioselect == "female" && dayOfBirth == 0){
+                    document.getElementById("resultSection").innerHTML = "Akosua";
                 }
-                else if(radionoselect == "female" && dayOfBith == 2){
-                    documents.getElementById("resultSelect").innerHTML = "Abenaa";
+                else if(radioselect == "female" && dayOfBirth == 1){
+                    document.getElementById("resultSection").innerHTML = "Adwoa";
                 }
-                else if(radionoselect == "female" && dayOfBith == 3){
-                    documents.getElementById("resultSelect").innerHTML = "Akua";
+                else if(radioselect == "female" && dayOfBirth == 2){
+                    document.getElementById("resultSection").innerHTML = "Abenaa";
                 }
-                else if(radionoselect == "female" && dayOfBith == 4){
-                    documents.getElementById("resultSelect").innerHTML = "Yaa";
+                else if(radioselect == "female" && dayOfBirth == 3){
+                    document.getElementById("resultSection").innerHTML = "Akua";
                 }
-                else if(radionoselect == "female" && dayOfBith == 5){
-                    documents.getElementById("resultSelect").innerHTML = "Afua";
+                else if(radioselect == "female" && dayOfBirth == 4){
+                    document.getElementById("resultSection").innerHTML = "Yaa";
                 }
-                else if(radionoselect == "female" && dayOfBith == 6){
-                    documents.getElementById("resultSelect").innerHTML = "Ama";
+                else if(radioselect == "female" && dayOfBirth == 5){
+                    document.getElementById("resultSection").innerHTML = "Afua";
                 }
-            });
-    </script>
- 
+                else if(radioselect == "female" && dayOfBirth ==6){
+                    document.getElementById("resultSection").innerHTML = "Ama";
+                }
+              });
+</script>   
 </body>
 </html>
