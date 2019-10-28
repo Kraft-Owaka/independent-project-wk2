@@ -2,16 +2,17 @@
 .dataSec{
     height: 500px;
     width: 350px;
+    margin: auto;
     background-color: rgb(87, 219, 219);
     position: absolute;
-    margin: auto;
     top: 0;
-    bottom: o;
+    bottom: 0;
     right: 0;
     left: 0;
     box-sizing: border-box;
     padding: 20px;
 }
+
 .btn{
     height: 50px;
     width: 150px;
