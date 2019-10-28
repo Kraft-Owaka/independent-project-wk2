@@ -75,11 +75,8 @@
 
         </div>
 <script>
-
-
-
         var a = document.getElementById("btnClick"); //created a button "a" from the "btnClick" in html
-        a.addEventListener("click", function(){//added an onclick event listener to btnClick so that when clicked, it runs the function
+        a.addEventListener("click", function(){//added an onclick event listener to btnClick so that when clicked, the function runs
         var DOB = document.getElementById('dateOB').valueAsDate//variable "DOB" stores the value from the date picker
         var dayOfBirth = DOB.getDay();//variable "dayOfBirth" returns an integer value for the day of the week
         //0 is Sunday to Saturday 6.
