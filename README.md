@@ -9,7 +9,7 @@ e-mail: owakakraft@gmail.com
     2.log in the required information
     3. submit.
 ## sample screen shot image
-<img src ="Screenshot from website.png">
+ <img src ="image/website.png">
 ## Contact Information 
  e-mail: owakakraft@gmail.com
 ### Thechnologies used 
