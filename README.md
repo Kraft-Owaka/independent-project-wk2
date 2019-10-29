@@ -8,7 +8,8 @@ e-mail: owakakraft@gmail.com
     1. open the website  
     2.log in the required information
     3. submit.
-## <img src ="Screenshot from 2019-10-28 14-15-14.png">
+## sample screen shot image
+<img src ="Screenshot from website.png">
 ## Contact Information 
  e-mail: owakakraft@gmail.com
 ### Thechnologies used 
