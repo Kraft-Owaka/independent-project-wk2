@@ -5,6 +5,7 @@
     Akan Names.
 </title>
 <style>
+
 .dateSec{
     height: 500px;
     width: 350px;
@@ -29,6 +30,9 @@
     cursor: pointer;
     border: 0;
 }
+#btnClick{
+    background-color: rgb(92, 143, 16); 
+}
 .btn:hover{
     transform: scale(1.1);
 }
@@ -52,28 +56,40 @@
 }
 
 </style>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
-    <body>
-            <p>This application checks whether the day and month entered is valid. The applicatin will then output
+    <body> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <p>This application checks whether the day and month entered is valid. The applicatin will then output
                     their Akan name depending on their gender.</p>
-                    <h1>Akan Name.</h1>
-        <div class="dateSec">
-            <form class="info" name="information">
-                Birthday:
-                <input type="date" name="bday" id="dateOB">
-                <fieldset class="set">
-                    <legend>Gender:</legend>
-                    <label>
-                            <input type="radio" value="male" name="gender">male<br>
-                    </label>
-                    <label>
-                            <input type="radio" value="female" name="gender">female
-                    </label>
-                </fieldset>
-            </form>
-            <button class="btn" id="btnClick">Click</button>
-            <p class="result" id="resultSection">Name Here</p>
-
+                        <h1>Akan Name.</h1>
+                   </div> 
+                </div>
+            </div>       
+                <div class="dateSec">
+                    <div class="row">
+                        <div class="col-md-12"> 
+                            <form class="info" name="information">
+                            Birthday:
+                                <input type="date" name="bday" id="dateOB">
+                                <fieldset class="set">
+                                <legend>Gender:</legend>
+                                <label>
+                                    <input type="radio" value="male" name="gender">male<br>
+                                </label>
+                                <label>
+                                    <input type="radio" value="female" name="gender">female
+                                </label>
+                                </fieldset>
+                            </form>
+                                <button class="btn" id="btnClick">Click</button>
+                            <p class="result" id="resultSection">Name Here</p>
+                        </div>
+                    </div>
+                </div>
         </div>
 <script>
         var a = document.getElementById("btnClick"); //created a button "a" from the "btnClick" in html
