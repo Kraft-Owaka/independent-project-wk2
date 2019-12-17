@@ -8,8 +8,7 @@ e-mail: owakakraft@gmail.com
     1. open the website and select your date of birth.
     2.log in the required information on Gender.
     3. submit and wait to receive the Akan name.
-## sample screen shot image
- <img src ="image/website.png">
+
 
 ## Contact Information 
  e-mail: owakakraft@gmail.com
