@@ -1,10 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../images);
+    background-image: url(../image/image.jpeg);
+}
+.fst{
+    text-align: center;
+}
+.fstp{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .dateSec{
-    height: 500px;
+    height: 450px;
     width: 350px;
     background-color: rgb(87, 219, 219);
     position: absolute;
